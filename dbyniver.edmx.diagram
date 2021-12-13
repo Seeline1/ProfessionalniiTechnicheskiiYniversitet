@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="82e9403de9894b65923c4ad50ac1060e" Name="Diagram1">
+        <EntityTypeShape EntityType="ProfTechnYniversitetModel.Administrator" Width="1.5" PointX="6" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProfTechnYniversitetModel.Gruppa" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProfTechnYniversitetModel.Polzovatel" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProfTechnYniversitetModel.Predmet" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProfTechnYniversitetModel.Prepod" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProfTechnYniversitetModel.SotrudnikDirekcii" Width="1.5" PointX="6" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProfTechnYniversitetModel.Student" Width="1.5" PointX="6" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProfTechnYniversitetModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProfTechnYniversitetModel.Attestaciya" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProfTechnYniversitetModel.AttestaciyaStud" Width="1.5" PointX="8.25" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="ProfTechnYniversitetModel.FK_Administrator_Polzovatel" ManuallyRouted="false" />
+        <AssociationConnector Association="ProfTechnYniversitetModel.FK_Student_Gruppa" ManuallyRouted="false" />
+        <AssociationConnector Association="ProfTechnYniversitetModel.FK_Prepod_Polzovatel" ManuallyRouted="false" />
+        <AssociationConnector Association="ProfTechnYniversitetModel.FK_SotrudnikDirekcii_Polzovatel" ManuallyRouted="false" />
+        <AssociationConnector Association="ProfTechnYniversitetModel.FK_Student_Polzovatel" ManuallyRouted="false" />
+        <AssociationConnector Association="ProfTechnYniversitetModel.FK_Attestaciya_Predmet" ManuallyRouted="false" />
+        <AssociationConnector Association="ProfTechnYniversitetModel.FK_AttestaciyaStud_Predmet" ManuallyRouted="false" />
+        <AssociationConnector Association="ProfTechnYniversitetModel.FK_AttestaciyaStud_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="ProfTechnYniversitetModel.PredmetGrupp" ManuallyRouted="false" />
+        <AssociationConnector Association="ProfTechnYniversitetModel.PredmetPrepoda" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
